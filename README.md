@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">
-Nuxtesse - <a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3  (Forked from [Official](https://github.com/antfu/vitesse-nuxt3))
+Nuxtesse - <a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3  (Forked from <a href="https://github.com/antfu/vitesse-nuxt3">Official</a>)
 </h2><br>
 
 <p align="center">
