@@ -1,20 +1,16 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11247099/140462375-7b7ac4db-35b7-453c-8a05-13d8d20282c4.png" width="600"/>
+<img src="https://user-images.githubusercontent.com/1094820/234684582-43d1ccdd-32bb-43b8-b42f-ab2eabd12b56.png" width="600"/>
 </p>
 
 <h2 align="center">
-<a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3
+Nuxtesse - <a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3  (Forked from [Official](https://github.com/antfu/vitesse-nuxt3))
 </h2><br>
-
-<pre align="center">
-🧪 Working in Progress
-</pre>
 
 <p align="center">
 <br>
-<a href="https://vitesse-nuxt3.netlify.app/">🖥 Online Preview</a>
+<a href="https://nuxtesse.netlify.app/">🖥 Online Preview</a>
 <br><br>
-<a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+<a href="https://stackblitz.com/github/jcamp-code/nuxtesse"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 </p>
 
 ## Features
@@ -23,9 +19,9 @@
 
 - ⚡️ Vite - Instant HMR.
 
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+- 🎨 [Tailwind CSS](https://tailwindcss.com) - The gold standard CSS utility framework
 
-- 😃 Use icons from any icon sets in Pure CSS, powered by [UnoCSS](https://github.com/antfu/unocss).
+- 😃 Use icons from any icon sets in Pure CSS, powered by [Tailwind Icons](https://github.com/jcamp-code/tailwindcss-plugin-icons/).
 
 - 🔥 The `<script setup>` syntax.
 
@@ -41,20 +37,20 @@
 
 - 📲 [PWA](https://github.com/vite-pwa/nuxt) with offline support and auto update behavior.
 
-## Changes
-
-- Prettier support
-- Tailwind CSS
-
 ## Plugins
 
 ### Nuxt Modules
 
 - [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
 - [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
-- [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine.
+- [TailwindCSS](https://tailwindcss.nuxtjs.org/) - the instant on-demand atomic CSS engine.
 - [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
 - [VitePWA](https://github.com/vite-pwa/nuxt) - zero-config PWA Plugin for Nuxt 3.
+
+### Tailwind CSS Plugins
+
+- [TailwindCSS Icons](https://github.com/jcamp-code/tailwindcss-plugin-icons/) - CSS Icons with Tailwind CSS.
+- [TailwindCSS Icons](https://github.com/jcamp-code/tailwindcss-plugin-animate/) - Animate.CSS with Tailwind CSS.
 
 ## IDE
 
@@ -62,27 +58,25 @@ We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https:
 
 ## Variations
 
-- [vitesse](https://github.com/antfu/vitesse) - Opinionated Vite Starter Template
-- [vitesse-lite](https://github.com/antfu/vitesse-lite) - Lightweight version of Vitesse
-- [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse for Nuxt 2 with Bridge
-- [vitesse-webext](https://github.com/antfu/vitesse-webext) - WebExtension Vite starter template
+- [Original vitesse](https://github.com/antfu/vitesse) - Original Opinionated Vite Starter Template
+- [vitesse Nuxt3](https://github.com/antfu/vitesse-nuxt3) - Original Opinionated Vite Starter Template for Nuxt
 
 ## Try it now!
 
 ### Online
 
-<a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+<a href="https://stackblitz.com/github/jcamp-code/nuxtesse"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-nuxt3/generate).
+[Create a repo from this template on GitHub](https://github.com/jcamp-code/nuxtesse/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit antfu/vitesse-nuxt3 my-nuxt3-app
+npx degit jcamp-code/nuxtesse my-nuxt3-app
 cd my-nuxt3-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
