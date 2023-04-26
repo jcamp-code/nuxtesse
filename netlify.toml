@@ -2,8 +2,8 @@
   NODE_VERSION = "16"
 
 [build]
-  publish = ".output/public"
-  command = "pnpm run generate"
+  publish = "dist"
+  command = "pnpm run build"
 
 [[redirects]]
   from = "/*"
