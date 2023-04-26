@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-block cursor-pointer rounded  bg-teal-600 px-4 py-1 text-white hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50;
+  }
+  .icon-btn {
+    @apply inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:text-teal-600 hover:opacity-100;
+  }
+}

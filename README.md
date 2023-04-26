@@ -41,6 +41,10 @@
 
 - 📲 [PWA](https://github.com/vite-pwa/nuxt) with offline support and auto update behavior.
 
+## Changes
+
+- Prettier support
+- Tailwind CSS
 
 ## Plugins
 
