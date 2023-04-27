@@ -43,14 +43,14 @@ Nuxtesse - <a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3  (F
 
 - [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
 - [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
-- [TailwindCSS](https://tailwindcss.nuxtjs.org/) - the instant on-demand atomic CSS engine.
+- [Tailwind CSS](https://tailwindcss.nuxtjs.org/) - the instant on-demand atomic CSS engine.
 - [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
 - [VitePWA](https://github.com/vite-pwa/nuxt) - zero-config PWA Plugin for Nuxt 3.
 
 ### Tailwind CSS Plugins
 
-- [TailwindCSS Icons](https://github.com/jcamp-code/tailwindcss-plugin-icons/) - CSS Icons with Tailwind CSS.
-- [TailwindCSS Icons](https://github.com/jcamp-code/tailwindcss-plugin-animate/) - Animate.CSS with Tailwind CSS.
+- [Tailwind CSS Icons](https://github.com/jcamp-code/tailwindcss-plugin-icons/) - CSS Icons with Tailwind CSS.
+- [Tailwind CSS Animation](https://github.com/jcamp-code/tailwindcss-plugin-animate/) - Animate.CSS with Tailwind CSS.
 
 ## IDE
 
