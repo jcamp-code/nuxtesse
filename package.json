@@ -2,7 +2,6 @@
   "private": true,
   "packageManager": "pnpm@8.6.12",
   "scripts": {
-    "prepare": "npx simple-git-hooks",
     "build": "nuxi build",
     "dev": "nuxi dev",
     "dev:pwa": "VITE_PLUGIN_PWA=true nuxi dev",
@@ -38,7 +37,7 @@
     "lint-staged": "^13.2.3",
     "nuxt": "^3.6.5",
     "pinia": "^2.1.6",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.1",
     "simple-git-hooks": "^2.9.0",
     "typescript": "^5.1.6"
   }
