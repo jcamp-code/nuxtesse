@@ -7,6 +7,8 @@ import typography from '@tailwindcss/typography'
 import forms from '@tailwindcss/forms'
 import aspectRatio from '@tailwindcss/aspect-ratio'
 
+import FormKitVariants from '@formkit/themes/tailwindcss'
+
 export default {
   darkMode: 'class',
   content: [
@@ -15,6 +17,7 @@ export default {
     './pages/**/*.vue',
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
+    './formkit.config.tailwind.{js,ts}',
   ],
   theme: {
     extend: {},
@@ -26,6 +29,7 @@ export default {
     aspectRatio,
     icons({ extraCssProperties: { display: 'flex' } }),
     animate({}),
+    FormKitVariants,
     // allows for use with nuxtlink
     plugin(({ addVariant }) => {
       addVariant('nla', ['&.router-link-active'])

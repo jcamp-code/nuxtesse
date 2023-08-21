@@ -2,6 +2,7 @@
 const navigation = [
   { name: 'Home', href: '/', icon: 'i-[carbon/home]', count: '5', current: true },
   { name: 'Second', href: '/second', icon: 'i-[carbon/number2]', current: false },
+  { name: 'FormKit', href: '/formkit', icon: 'i-[carbon/form]', current: false },
 ]
 </script>
 
@@ -25,7 +26,7 @@ const navigation = [
           </li>
         </ul>
       </nav>
-      <main class="max-w-md text-center lg:max-w-2xl lg:p-20">
+      <main class="max-w-md lg:max-w-2xl lg:p-20">
         <slot />
         <Footer />
         <div class="mx-auto mt-5 text-center text-sm opacity-25">[Default Layout]</div>

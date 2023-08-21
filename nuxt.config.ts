@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@vite-pwa/nuxt',
+    '@formkit/nuxt',
   ],
 
   experimental: {

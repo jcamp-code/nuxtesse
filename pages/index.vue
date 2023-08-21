@@ -3,7 +3,7 @@ const online = useOnline()
 </script>
 
 <template>
-  <div>
+  <div class="text-center">
     <Logos class="mb-6" />
     <Suspense>
       <ClientOnly>
