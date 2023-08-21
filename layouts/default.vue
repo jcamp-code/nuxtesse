@@ -8,8 +8,8 @@ const navigation = [
 
 <template>
   <div class="flex justify-center p-2 py-10">
-    <div class="flex w-full flex-col md:max-w-2xl md:flex-row">
-      <nav class="mb-6 flex w-full flex-1 flex-col md:max-w-xs md:p-5" aria-label="Sidebar">
+    <div class="flex w-full flex-col md:max-w-[700px] md:flex-row">
+      <nav class="mb-6 flex w-full flex-col md:w-48 md:p-5" aria-label="Sidebar">
         <ul role="list" class="space-y-1">
           <li v-for="item in navigation" :key="item.name">
             <NuxtLink
@@ -26,7 +26,7 @@ const navigation = [
           </li>
         </ul>
       </nav>
-      <main class="max-w-md lg:max-w-2xl lg:p-20">
+      <main class="max-w-md lg:max-w-fit lg:w-[500px] lg:px-10 lg:py-20">
         <slot />
         <Footer />
         <div class="mx-auto mt-5 text-center text-sm opacity-25">[Default Layout]</div>
