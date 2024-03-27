@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^0.19.3
     version: 0.19.3(rollup@2.79.1)(tailwindcss@3.4.1)
   '@formkit/themes':
-    specifier: ^0.19.3
-    version: 0.19.3(tailwindcss@3.4.1)
+    specifier: ^1.6.1
+    version: 1.6.1(tailwindcss@3.4.1)
   '@iconify-json/carbon':
     specifier: ^1.1.31
     version: 1.1.31
@@ -2518,6 +2518,12 @@ packages:
       '@formkit/utils': 0.19.3
     dev: true
 
+  /@formkit/core@1.6.1:
+    resolution: {integrity: sha512-9QV6Si+YlZ059RvB1NaJiRu9vcTVEMpJ5bIi6Aqt5AyIIQDk1m/u1N0mdugolrhv3FShA5RVJ1Mj2m2zF0BmIw==}
+    dependencies:
+      '@formkit/utils': 1.6.1
+    dev: true
+
   /@formkit/dev@0.19.3:
     resolution: {integrity: sha512-1LAhM5pf2rWBN6mEa9d3fceTSudWVwqL42DeVpNx7EQxCzRwya1ERSXTebQXnjEgcsT85S9oF5g1LyJ4WZ/Gjg==}
     dependencies:
@@ -2596,8 +2602,30 @@ packages:
       tailwindcss: 3.4.1(ts-node@10.9.1)
     dev: true
 
+  /@formkit/themes@1.6.1(tailwindcss@3.4.1):
+    resolution: {integrity: sha512-O5t9TER1kpZbPWKt+EjmT1qFyKWXWGUxdv+EuzrRKhx2W4wEhInHxbttKCmRhxohKqvjLYoCJgntlmoMW9OxRQ==}
+    peerDependencies:
+      tailwindcss: ^3.2.0
+      unocss: ^0.31.0
+      windicss: ^3.0.0
+    peerDependenciesMeta:
+      tailwindcss:
+        optional: true
+      unocss:
+        optional: true
+      windicss:
+        optional: true
+    dependencies:
+      '@formkit/core': 1.6.1
+      tailwindcss: 3.4.1(ts-node@10.9.1)
+    dev: true
+
   /@formkit/utils@0.19.3:
     resolution: {integrity: sha512-S7iSnFxM/mYpVxMe550oUYJGiW3KTaovylsXXWXe29h2RGnxIumsmGEi3bpmhkA3QtsL4DvsU10fGGL2nVP0gA==}
+    dev: true
+
+  /@formkit/utils@1.6.1:
+    resolution: {integrity: sha512-34KtuNgNoVe/kG4eJ52tUgJ/kT+PTrQGvtHg9n4zb5oTZW66J7wZR1IbRl/PV19yZr6gvpLBfyt9VYEgkEnZHg==}
     dev: true
 
   /@formkit/validation@0.19.3:
