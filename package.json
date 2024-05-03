@@ -33,7 +33,7 @@
     "@vueuse/nuxt": "^10.9.0",
     "commitlint-config-unjs": "^1.0.1",
     "consola": "^3.2.3",
-    "eslint": "^8.57.0",
+    "eslint": "^9.2.0",
     "lint-staged": "^14.0.1",
     "nuxt": "^3.11.2",
     "pinia": "^2.1.7",
