@@ -13,7 +13,7 @@
     "start:generate": "npx serve .output/public"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.8.1",
+    "@commitlint/cli": "^19.5.0",
     "@formkit/icons": "^0.19.3",
     "@formkit/nuxt": "^0.19.3",
     "@formkit/themes": "^0.19.3",
