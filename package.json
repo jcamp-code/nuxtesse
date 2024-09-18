@@ -15,7 +15,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.8.1",
     "@formkit/icons": "^0.19.3",
-    "@formkit/nuxt": "^0.19.3",
+    "@formkit/nuxt": "^1.6.7",
     "@formkit/themes": "^0.19.3",
     "@iconify-json/carbon": "^1.1.31",
     "@iconify-json/twemoji": "^1.1.15",
