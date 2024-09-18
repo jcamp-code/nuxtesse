@@ -16,7 +16,7 @@
     "@commitlint/cli": "^17.8.1",
     "@formkit/icons": "^0.19.3",
     "@formkit/nuxt": "^0.19.3",
-    "@formkit/themes": "^0.19.3",
+    "@formkit/themes": "^1.6.7",
     "@iconify-json/carbon": "^1.1.31",
     "@iconify-json/twemoji": "^1.1.15",
     "@jcamp/eslint-config": "^0.8.2",
