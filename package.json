@@ -29,7 +29,7 @@
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/forms": "0.5.7",
     "@tailwindcss/typography": "^0.5.12",
-    "@vite-pwa/nuxt": "^0.6.0",
+    "@vite-pwa/nuxt": "^1.1.1",
     "@vueuse/nuxt": "^10.9.0",
     "commitlint-config-unjs": "^1.0.1",
     "consola": "^3.2.3",
